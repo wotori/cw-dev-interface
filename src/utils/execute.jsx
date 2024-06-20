@@ -2,11 +2,11 @@ const IDENTITY_CONTRACT = process.env.IDENTITY_CONTRACT;
 
 export async function saveToArchway(client, address) {
   const identityData = {
-    about: "test",
+    about: "hello world",
     address: address,
-    avatar: "test",
-    name: "test",
-    pic: "test",
+    avatar: "QmZfs6E2Sg2PaGavyjcgTZ9hbyqZLQzU2Xj5UnBefCxwSs",
+    name: "hello",
+    pic: "hello",
   };
 
   console.log("identity data: ", identityData);
